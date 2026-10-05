@@ -3,7 +3,8 @@
 > [!IMPORTANT]
 > Labs are found in their respective git branches.
 
-
 <span>🏠 <a href="https://github.com/ChristopherA8/AIT-Course/tree/main">Main</a></span>
 <br>
-<span>✏️ Lab 1</span>
+<span>✏️ <a href="https://github.com/ChristopherA8/AIT-Course/tree/lab-1">Lab 1</a></span>
+<br>
+<span>✏️ Lab 2</span>
