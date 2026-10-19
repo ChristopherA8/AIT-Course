@@ -11,7 +11,34 @@
     </style>
   </head>
   <body>
-    <h1>My web page</h1>
-    <p><a href="https://google.com">Visit Google</a></p>
+    <form>
+      <fieldset>
+        <legend>Calculator</legend>
+        <label for="first">No. 1</label>
+        <input id="first" type="number" />
+        <br /><br />
+        <label for="second">No. 2</label>
+        <input id="second" type="number" />
+        <br /><br />
+        <label for="operation">Operation</label>
+        <select id="operation">
+          <option value="+">+</option>
+          <option value="-">-</option>
+          <option value="*">*</option>
+          <option value="/">/</option>
+        </select>
+        <br /><br />
+        <button onclick="calc()">Calculate</button>
+        <br /><br />
+        <label>Output</label>
+        <output id="output"></output>
+      </fieldset>
+    </form>
   </body>
+  <script>
+    function calc() {
+      var first = document.getElementById("first");
+      var second = document.getElementById("second");
+    }
+  </script>
 </html>

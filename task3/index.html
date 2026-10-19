@@ -11,14 +11,17 @@
     </style>
   </head>
   <body>
-    <p>
-      If you want to learn more about HTML, visit the
-      <a
-        title="Learn more about HTML"
-        href="https://developer.mozilla.org/en-US/"
-        target="_blank"
-        >MDN web page</a
-      >
-    </p>
+    <form>
+      <fieldset>
+        <legend>Name and Surname</legend>
+        <label for="username">Username: </label>
+        <input id="username" type="text" />
+        <br /><br />
+        <label for="password">Password: </label>
+        <input id="password" type="password" />
+        <br /><br />
+        <button onclick="calc()">Submit</button>
+      </fieldset>
+    </form>
   </body>
 </html>

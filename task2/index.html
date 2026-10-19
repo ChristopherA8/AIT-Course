@@ -4,15 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Task 02</title>
+    <style>
+      body {
+        font-family: system-ui;
+      }
+    </style>
   </head>
   <body>
-    <main>
-      <h1>Social Media</h1>
-      <ul>
-        <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
-        <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
-        <li><a href="https://youtube.com" target="_blank">Youtube</a></li>
-      </ul>
-    </main>
+    <form>
+      <fieldset>
+        <legend>Sign in</legend>
+        <label for="username">Username: </label>
+        <input id="username" type="text" />
+        <br /><br />
+        <label for="password">Password: </label>
+        <input id="password" type="password" />
+        <br /><br />
+        <button onclick="calc()">Submit</button>
+      </fieldset>
+    </form>
   </body>
 </html>
