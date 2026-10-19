@@ -1,0 +1,30 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 400px;
+  margin: 0 auto;
+}
+
+h1,
+h3 {
+  text-transform: capitalize;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  border-bottom: 1px solid black;
+}
+
+p {
+  text-align: justify;
+}
+
+footer {
+  font-size: 70%;
+}
+
+footer p {
+  text-align: center;
+}
